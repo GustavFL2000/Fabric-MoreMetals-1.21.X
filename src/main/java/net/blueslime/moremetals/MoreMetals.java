@@ -1,5 +1,6 @@
 package net.blueslime.moremetals;
 
+import net.blueslime.moremetals.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +12,6 @@ public class MoreMetals implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
