@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "moremetals",
+	"version": "${version}",
+	"name": "More Metals",
+	"description": "A Mod to add more metals to Minecraft.",
+	"authors": [
+		"BlueSlimeMC "
+	],
+	"contact": {
+		"homepage": "https://gustav-portfolio-app.netlify.app/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/moremetals/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.blueslime.moremetals.MoreMetals"
+		],
+		"fabric-datagen": [
+			"net.blueslime.moremetals.MoreMetalsDataGenerator"
+		],
+		"client": [
+			"net.blueslime.moremetals.MoreMetalsClient"
+		]
+	},
+	"mixins": [
+		"moremetals.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
