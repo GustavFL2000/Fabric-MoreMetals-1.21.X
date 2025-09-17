@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "moremetals:item/silver_ingot"
+    "layer0": "moremetals:textures/item/silver_ingot.png"
   }
 }
